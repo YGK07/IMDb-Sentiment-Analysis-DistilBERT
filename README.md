@@ -166,7 +166,7 @@ Through this project I learned:
 
 Yohan George
 
-B.Tech Computer Science with Bioinformatics
+B.Tech Computer Science with AI ML
 
 VIT Vellore
 
