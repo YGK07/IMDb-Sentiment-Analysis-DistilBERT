@@ -19,14 +19,11 @@ st.write(
 
 @st.cache_resource
 def load_model():
+    MODEL_NAME = "distilbert-base-uncased-finetuned-sst-2-english"
 
-    tokenizer = DistilBertTokenizer.from_pretrained(
-        "best_model"
-    )
+    tokenizer = DistilBertTokenizer.from_pretrained(MODEL_NAME)
 
-    model = DistilBertForSequenceClassification.from_pretrained(
-        "best_model"
-    )
+    model = DistilBertForSequenceClassification.from_pretrained(MODEL_NAME)
 
     model.eval()
 
